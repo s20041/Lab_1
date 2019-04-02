@@ -1,7 +1,6 @@
 /*
-Zadanie nr1 Laboratorium2, Jakub Słomiński, Bartosz Bizoń
+Zadanie nr1 Laboratorium2,  Bartosz Bizoń, Jakub Słomiński
 */
-
 
 package com.company;
 
@@ -24,7 +23,7 @@ public class Human {
         return waga;
     }
     private int getHeight(int wzrost){
-        return waga;
+        return wzrost;
     }
     private String getName(String Name){
         return Name;
