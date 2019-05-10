@@ -1,3 +1,8 @@
+/*
+Zadanie nr3 Laboratorium4,  Bartosz Bizoń, Adrian Szostak
+*/
+
+
 public class Point {
 
     protected float x = 0.0f;

@@ -1,3 +1,8 @@
+/*
+Zadanie nr2 Laboratorium4,  Bartosz Bizoń, Adrian Szostak
+*/
+
+
 public class Point3D extends Point2D {
 
     private float z;

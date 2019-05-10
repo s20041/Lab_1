@@ -1,3 +1,8 @@
+/*
+Zadanie nr7 Laboratorium4,  Bartosz Bizoń, Adrian Szostak
+*/
+
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

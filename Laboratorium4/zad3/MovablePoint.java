@@ -1,3 +1,8 @@
+/*
+Zadanie nr3 Laboratorium4,  Bartosz Bizoń, Adrian Szostak
+*/
+
+
 public class MovablePoint extends Point{
 
     private float xSpeed;

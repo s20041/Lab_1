@@ -1,3 +1,8 @@
+/*
+Zadanie nr2 Laboratorium4,  Bartosz Bizoń, Adrian Szostak
+*/
+
+
 public class Point2D {
 
     protected float x = 0.0f;

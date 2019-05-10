@@ -1,3 +1,7 @@
+/*
+Zadanie nr1 Laboratorium4,  Bartosz Bizoń, Adrian Szostak
+*/
+
 public class Staff extends Person {
 
     private String school;
