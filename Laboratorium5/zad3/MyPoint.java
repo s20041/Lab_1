@@ -1,3 +1,7 @@
+/*
+Zadanie nr1 Laboratorium5,  Bartosz Bizoń, Iwona Rymanowska
+*/
+
 import static java.lang.Math.pow;
 import static java.lang.StrictMath.sqrt;
 

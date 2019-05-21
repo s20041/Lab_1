@@ -1,3 +1,7 @@
+/*
+Zadanie nr6 Laboratorium5,  Bartosz Bizoń, Iwona Rymanowska
+*/
+
 package com.company;
 
 public class Pierwiastki {
