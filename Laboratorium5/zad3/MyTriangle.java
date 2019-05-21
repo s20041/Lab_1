@@ -1,9 +1,13 @@
+import static java.lang.Math.pow;
+import static java.lang.StrictMath.sqrt;
+
 public class MyTriangle extends  MyPoint {
 
-    int x;
-    int y;
     int x1,x2,x3,y1,y2,y3;
     String type;
+    double bokA=sqrt(pow((x1-x2),2)+(pow((y1-y2),2)));
+    double bokB=sqrt(pow((x2-x3),2)+(pow((y2-y3),2)));
+    double bokC=sqrt(pow((x3-x1),2)+(pow((y3-y1),2)));
 
     public MyTriangle(int x1,int y1,int x2,int y2,int x3,int y3){
         this.x1=x1;
@@ -32,29 +36,34 @@ public class MyTriangle extends  MyPoint {
         System.out.println("x3: "+x3+" y3:"+y3);
     }
 
-    String toString(){
-
+    public String toString(){
+        return "[v1="+x1+" , "+y1+"v2="+x2+" , "+y2+",v3= "+x3+" , "+y3+" ]";
     }
 
-    double getParimeter(){}
+    double getPerimeter(int x, int y, int x2, int y2){
+        double distance;
+        distance=sqrt(pow((x-x2),2)+(pow((y-y2),2)));
+        return distance;
+    }
 
     String getType(String type){
-        if(){
-            type="Equilateral";
+        if(bokA==bokB&&bokA==bokC&&bokB==bokC){
+            type="Equilateral"; // Rownoboczny
         }
-        else if(){
-            type="Isosceles";
+        if(bokA==bokB||bokA==bokC||bokB==bokC){
+            type="Isosceles"; // Rownoramienny
         }
-        else if(){
-            type="Scalene";
+        if(bokA!=bokB&&bokA!=bokC&&bokB!=bokC){
+            type="Scalene"; // Różnoboczny
         }
+        return " ";
     }
 
 
 
     public static void main(String[] args) {
         MyPoint punkt = new MyPoint();
-        MyTriangle triangle = new MyTriangle();
+        MyTriangle triangle = new MyTriangle(1,1,2,2,3,3);
 
 
     }
