@@ -1,5 +1,5 @@
 /*
-Zadanie nr1 Laboratorium5,  Bartosz Bizoń, Iwona Rymanowska
+Zadanie nr3 Laboratorium5,  Bartosz Bizoń, Iwona Rymanowska
 */
 
 import static java.lang.Math.pow;
