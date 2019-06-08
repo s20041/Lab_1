@@ -1,3 +1,6 @@
+/*
+Zadanie nr4 Laboratorium6,  Bartosz Bizoñ
+*/
 public class DemoRunners {
 
     public static void main(String args[]){

@@ -1,3 +1,6 @@
+/*
+Zadanie nr1 Laboratorium6,  Bartosz Bizoñ
+*/
 public class MovableRectangle extends MovablePoint implements Movable {
 
     int x1, y1, x2, y2, xSpeed, ySpeed;

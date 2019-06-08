@@ -1,3 +1,6 @@
+/*
+Zadanie nr1 Laboratorium6,  Bartosz Bizoñ
+*/
 public class MovablePoint implements  Movable{
 
     int x, y, xSpeed, ySpeed;

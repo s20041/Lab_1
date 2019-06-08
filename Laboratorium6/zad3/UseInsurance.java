@@ -1,3 +1,6 @@
+/*
+Zadanie nr3 Laboratorium6,  Bartosz Bizoñ
+*/
 public class UseInsurance {
 
     public static void main(String[] args){

@@ -1,3 +1,6 @@
+/*
+Zadanie nr2 Laboratorium6,  Bartosz Bizoñ
+*/
 public class Circle extends ResizableCircle implements  GeometricObject {
 
     public double radius=1.0;
